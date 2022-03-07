@@ -1,0 +1,119 @@
+*,::after,::before{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  .navbar {
+      height: 50px;
+      padding: 0px;
+      background-color: #0d47a1;
+      box-shadow: 0 0.25rem .75rem #555;
+  }
+  .nav-item {
+      display: inline-block;
+      padding: 0px 10px 0px 10px;
+      text-decoration: none;
+  }
+  .collapse{
+    background-color: #0d47a1;
+  }
+  
+  .nav-item:hover {
+      background-color: #003d9923;
+  }
+  main {
+      padding-bottom: 70px;
+  }
+
+  html {
+    font-size: 14px;
+    padding: 0px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+      padding: 0px;
+    }
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    padding: 0px;
+  }
+  
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    width: 100%;
+  }
+  .carousel {
+    width: 100%;
+    vertical-align: middle;
+    overflow:hidden;
+  }
+  .carousel-item {
+    width: 100%;
+    background-size:cover;
+    background-position:center;
+    justify-content:center;
+    align-items:center;
+  }
+  .carousel-inner{
+    width: 100%;
+  }
+  .card{
+    background-color:#4d94ffaa;
+    min-width:16rem;
+    width: 16rem;
+    border-radius: 20px;
+    box-shadow: 0 .25rem .75rem #555;
+  }
+  .card:hover{
+    background-color:#1a75ffaa;
+    border: 1px solid #1a75ff;
+  }
+  .card-img-top{
+    height: 16em;
+    border-radius: 30px 30px 0px 00px;
+  }
+  .card-subtitle{
+      color:#002966;
+  }
+  .preco{
+    color:#002966;
+}
+  .books{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .home{
+    box-shadow: 0 -0.25rem 0.75rem #555;
+    height: auto;
+  }
+  .cabecalho{
+    font-family: 'Baumans';
+  }
+  .home-text{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .jumbotrom{
+    border-radius: 30px;
+    background-color: #1a75ff44;
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    color: #ccc;
+    background-color: #0d47a1;
+    line-height: 50px; 
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 -0.25rem 0.75rem #555;
+}
