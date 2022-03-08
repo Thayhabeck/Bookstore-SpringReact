@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
 
     return (
-        <div className="p-0 m-0">
+        <div className="p-0 m-0 py-2 mt-5">
             <div id="bookstoreCarrousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -41,9 +41,9 @@ export default function Home() {
                             Livros
                         </Link>
                     </div>
-                    <image className="col-md-3 p-3">
+                    <div className="col-md-3 p-3">
                         <img className="img-fluid" src={figureBookstore} alt="imagem" />
-                    </image>
+                    </div>
                 </div>
             </div>
         </div>

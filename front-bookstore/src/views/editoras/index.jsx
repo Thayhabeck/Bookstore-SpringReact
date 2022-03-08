@@ -8,7 +8,6 @@ export default function Index() {
         EditoraService.getAllEditoras()
             .then((response) => {
                 setEditora(response.data);
-                console.log(response.data);
             }).catch((error) => {
                 console.log(error);
             });
@@ -33,7 +32,7 @@ export default function Index() {
     };
 
     return (
-        <div className="container py-3">
+        <div className="container py-4 mt-5">
             <Link className="btn btn-primary" style={{ marginBottom: '10px' }} to="/Editoras-Create">
                 Adicionar Editora
             </Link>

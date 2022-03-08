@@ -32,7 +32,7 @@ export default function Index() {
     };
 
     return (
-        <div className="container py-4">
+        <div className="container py-4 mt-5">
             <Link className="btn btn-primary" style={{ marginBottom: '10px' }} to="/Autores-Create">
                 Adicionar Autor
             </Link>
