@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const LIVRO_API_URL = "http://localhost:8080/livros";
+const LIVRO_API_URL = "https://bookstore-springapi.herokuapp.com/livros";
 
 class LivroService {
     getAllLivros() {

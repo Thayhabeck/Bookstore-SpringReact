@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const AUTOR_API_URL = "http://localhost:8080/autores";
+const AUTOR_API_URL = "https://bookstore-springapi.herokuapp.com/autores";
 
 class AutorService {
     getAllAutores() {

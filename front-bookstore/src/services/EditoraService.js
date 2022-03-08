@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const EDITORA_API_URL = "http://localhost:8080/editoras";
+const EDITORA_API_URL = "https://bookstore-springapi.herokuapp.com/editoras";
 
 class EditoraService {
     getAllEditoras() {
