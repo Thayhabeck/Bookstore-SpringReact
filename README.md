@@ -1,7 +1,9 @@
 # Projeto Bookstore 
 
 Back API rest com Java Spring boot <br>
-Front em React.js com Bootstrap
+Link: https://bookstore-springapi.herokuapp.com/livros <br><br>
+Front em React.js com Bootstrap<br>
+Link: https://bookstore-reactfront.herokuapp.com/<br>
 
 ## Vídeo Demo
 
