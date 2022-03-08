@@ -8,7 +8,6 @@ export default function Index() {
         LivroService.getAllLivros()
             .then((response) => {
                 setLivros(response.data);
-                console.log(response.data);
             }).catch((error) => {
                 console.log(error);
             });
@@ -38,7 +37,7 @@ export default function Index() {
 
             <div className="books justify-content-around">
                 {livros.map((livro) => (
-                    <div className="book_box card text-center m-1" key={livro.id_Livro}>
+                    <div className="book_box card text-center m-1 my-3" key={livro.id_Livro}>
                         <img className="card-img-top img-responsive p-3 pb-0" src={livro.urlImg} alt="Capa" />
                         <h5 className="card-title fw-bold my-2">{livro.titulo}</h5>
                         <p className="card-subtitle fw-bold ">{livro.autor.nome} {livro.autor.sobrenome}</p>
