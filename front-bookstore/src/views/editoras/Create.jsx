@@ -38,7 +38,7 @@ export default function Create() {
     }, [id]);
 
 return (
-    <div className="container py-3">
+    <div className="container py-4 mt-5">
         <form>
             <fieldset>
                 <legend className="bg-dark rounded-3 p-3 text-light">
